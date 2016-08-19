@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title> MongoDB Test</title>
+		<center>
+		Enter User Details<br/><br/>
+		</center>
+	</head>
+	<body>
+		<form action="http://localhost:3000/login" method="post">
+		Enter Name<input type="text" name='username' value=""/><br/>
+		Enter Email<input type="text" name="email" value=""/><br/>
+		Enter Age<input type="number" name="age" value=""/><br/>
+		Enter Place<input type="text" name="place" value=""/><br/>
+		<input type="submit" name="login" value="Login"/>
+		<input type="submit" name="save" value="Save" formaction="http://localhost:3000/save"/>
+		<input type="submit" name="fetch" value="Fetch" formaction="http://localhost:3000/fetch"/>
+		</form>
+	</body>
+
+</html>
